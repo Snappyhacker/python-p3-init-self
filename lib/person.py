@@ -1,4 +1,6 @@
-#!/usr/bin/env python3
+# lib/person.py
 
 class Person:
-    pass
+    # Constructor that accepts a name
+    def __init__(self, name):
+        self.name = name  # Stores the person's name
